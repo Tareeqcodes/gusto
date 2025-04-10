@@ -8,7 +8,7 @@ import Testimonial from '@/components/Tesmonial';
 import Events from '@/components/Events';
 export default function Home() {
   return (
-    <>
+    <div className='space-y-16 md:space-y-24'>
       <Hero />
       <PopularDishes />
       <Menu />
@@ -17,6 +17,6 @@ export default function Home() {
       <Feeds />
       <Testimonial />
       <Events />
-    </>           
+    </div>           
   );
 }

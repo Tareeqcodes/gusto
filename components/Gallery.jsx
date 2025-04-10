@@ -41,8 +41,10 @@ export default function Gallery() {
               <Image
                 src={img.src}
                 fill
+                sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
                 alt="Restaurant dish"
+                priority={index < 3}
               />
               <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-all flex items-center justify-center">
                 <FiZoomIn className="text-white text-3xl opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -64,6 +66,7 @@ export default function Gallery() {
               <Image
                 src={galleryImages[selectedImage].src}
                 fill
+                 sizes="100vw"
                 className="object-contain"
                 alt="Enlarged view"
               />

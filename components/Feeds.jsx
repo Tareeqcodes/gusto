@@ -31,7 +31,7 @@ export default function LocationFeeds() {
       features: ['Private dining', 'Skyline view', 'Wine pairing'],
       amenities: [<FaWifi key="wifi" />, <FaParking key="parking" />, <FaSnowflake key="ac" />],
       rating: 4.9,
-      reviews: 156
+      reviews: 136
     },
     {
       city: 'Lagos',
@@ -42,7 +42,7 @@ export default function LocationFeeds() {
       features: ['Beachfront access', 'Live band nights', 'Seafood bar'],
       amenities: [<FaWifi key="wifi" />, <FaParking key="parking" />, <FaSnowflake key="ac" />],
       rating: 4.7,
-      reviews: 98
+      reviews: 198
     }
   ];
 
@@ -67,7 +67,7 @@ export default function LocationFeeds() {
                 onClick={() => setShowMonthly(false)}
                 className={`px-4 py-2 rounded-full ${!showMonthly ? 'bg-amber-600 text-white' : 'text-amber-800'}`}
               >
-                Daily Rates
+                Daily Rates  
               </button>
               <button
                 onClick={() => setShowMonthly(true)}
