@@ -24,7 +24,7 @@ export default function PopularDishes() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl font-bold text-amber-900 mb-2">Customer Favorites</h2>
+          <h2 className="text-4xl font-bold text-amber-900 mb-2">Customer Favorites</h2>
           <div className="w-20 h-1 bg-amber-600 mx-auto"></div>
         </motion.div>
 

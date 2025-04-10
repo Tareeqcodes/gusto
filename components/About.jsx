@@ -20,7 +20,7 @@ export default function About() {
                 fill 
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover" 
-                alt="Our Chef" 
+                alt="Our Chief" 
               />
             </div>
           </motion.div>
@@ -41,7 +41,7 @@ export default function About() {
               whileTap={{ scale: 0.95 }}
               className="mt-6 px-6 py-3 bg-amber-600 text-white rounded-lg"
             >
-              Meet Our Chef
+              Meet Our Chief
             </motion.button>
           </motion.div>
         </div>

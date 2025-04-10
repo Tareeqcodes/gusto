@@ -54,8 +54,8 @@ const Menu = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h1 className="text-4xl font-bold text-amber-900 mb-2 font-serif">Gusto Menu</h1>
-          <p className="text-lg text-amber-700">Discover our exquisite culinary offerings</p>
+          <h1 className="text-5xl font-bold text-amber-900 mb-2 font-serif">Gusto Menu</h1>
+          <p className="text-lg text-amber-700 font-light">Discover our exquisite culinary offerings</p>
           <div className="w-24 h-1 bg-amber-600 mx-auto mt-4"></div>
         </motion.div>
 

@@ -1,9 +1,9 @@
-// components/Hero.tsx
+
 'use client';
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { FaUtensils } from 'react-icons/fa';
+import { FaUtensils, FaMapMarkerAlt } from 'react-icons/fa';
 
 export default function Hero() {
   const containerVariants = {
@@ -55,7 +55,7 @@ export default function Hero() {
 
   return (
     <div className="relative h-[40rem] w-full overflow-hidden">
-      {/* Background Image with subtle zoom effect */}
+      {/* Background Image */}
       <motion.div
         initial={{ scale: 1.1 }}
         animate={{ scale: 1 }}
@@ -70,7 +70,6 @@ export default function Hero() {
           alt="Gusto Restaurant Interior"
           quality={100}
         />
-        {/* Dark overlay for better text contrast */}
         <div className="absolute inset-0 bg-black/30" />
       </motion.div>
 
@@ -82,24 +81,40 @@ export default function Hero() {
           animate="visible"
           className="text-center px-4 max-w-4xl mx-auto"
         >
-          {/* Restaurant Name */}
-          <motion.h1
-            variants={textVariants}
-            className="text-5xl md:text-7xl font-bold text-white font-serif mb-4 tracking-tight"
-          >
-            Gusto-resto
-          </motion.h1>
+          {/* Restaurant Name with Branches */}
+          <div className="mb-2">
+            <motion.h1
+              variants={textVariants}
+              className="text-5xl md:text-7xl font-bold text-white font-serif tracking-tight"
+            >
+              GUSTO
+            </motion.h1>
+            <motion.div
+              variants={textVariants}
+              className="flex items-center justify-center gap-2 text-amber-200 mt-2"
+            >
+              <FaMapMarkerAlt className="text-lg" />
+              <span className="font-medium tracking-wider">Abuja | Kano | Lagos</span>
+            </motion.div>
+          </div>
 
           {/* Tagline */}
+          <motion.div variants={textVariants} className="mb-6">
+            <p className="text-2xl md:text-3xl font-light text-amber-100 italic mb-2">
+              "A masterpiece you can taste"
+            </p>
+            <div className="w-24 h-0.5 bg-amber-400 mx-auto" />
+          </motion.div>
+
           <motion.p
             variants={textVariants}
-            className="text-xl md:text-2xl text-amber-100 mb-8 max-w-2xl mx-auto"
+            className="text-lg md:text-xl text-amber-100 mb-8 max-w-2xl mx-auto"
           >
-            Experience culinary excellence with our seasonally inspired menu
+            We're bringing everything together for an unforgettable dining experience
           </motion.p>
 
           {/* CTA Button */}
-          <motion.div variants={textVariants}>
+          <motion.div variants={textVariants} className="flex flex-col items-center gap-4">
             <motion.a
               href="/menu"
               variants={buttonVariants}
@@ -110,9 +125,15 @@ export default function Hero() {
               <FaUtensils className="text-xl" />
               <span>View Our Menu</span>
             </motion.a>
+            <motion.div
+              variants={textVariants}
+              className="text-amber-100 text-sm mt-4"
+            >
+              <p>Follow us on <span className="font-bold">@gusto.nigeria</span></p>
+              <p className="text-xs mt-1">For all updates & content</p>
+            </motion.div>
           </motion.div>
 
-          {/* Floating food items (optional decorative elements) */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

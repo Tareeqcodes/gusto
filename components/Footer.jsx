@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">Gusto Restaurant</h3>
-            <p className="mb-4">Bringing exceptional dining experiences since 2010</p>
+            <p className="mb-4">Bringing exceptional dining experiences since 2018</p>
             <div className="flex gap-4">
               <a href="#" className="hover:text-white"><FaInstagram size={20} /></a>
               <a href="#" className="hover:text-white"><FaFacebook size={20} /></a>

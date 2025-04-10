@@ -12,8 +12,8 @@ const galleryImages = [
   { src: "/images/4.png", category: "desserts" },
   { src: "/images/5.png", category: "desserts" },
   { src: "/images/6.png", category: "desserts" },
-  { src: "/images/7.png", category: "desserts" },
   { src: "/images/8.png", category: "desserts" },
+  { src: "/images/9.png", category: "desserts" },
   // 6-8 images
 ];
 
