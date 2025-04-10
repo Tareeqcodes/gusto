@@ -1,11 +1,22 @@
-import Main from '@/components/Main';
+import Hero from '@/components/Hero';
+import PopularDishes from '@/components/PopularDishes';
 import Menu from '@/components/Menu';
-
+import Gallery from '@/components/Gallery';
+import About from '../components/About';
+import Feeds from '@/components/Feeds';
+import Testimonial from '@/components/Tesmonial';
+import Events from '@/components/Events';
 export default function Home() {
   return (
     <>
-      <Main />
+      <Hero />
+      <PopularDishes />
       <Menu />
-    </>
+      <Gallery />
+      <About />
+      <Feeds />
+      <Testimonial />
+      <Events />
+    </>           
   );
 }
