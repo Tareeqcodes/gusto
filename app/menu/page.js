@@ -21,7 +21,7 @@ export default function MenuPage() {
         ) : (    
           <div className="bg-white p-4 rounded-lg shadow-lg mb-8">
             <iframe 
-              src="/menu.pdf" 
+              src="/Menu.pdf" 
               className="w-full h-[70vh] border border-amber-200 rounded-lg"
               title="Gusto Restaurant Menu"
               onError={() => setError(true)}
@@ -31,7 +31,7 @@ export default function MenuPage() {
 
         <div className="text-center">
           <a 
-            href="/menu.pdf" 
+            href="/Menu.pdf" 
             download="Gusto-Menu.pdf"
             className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-medium px-6 py-3 rounded-lg transition-colors"
           >
