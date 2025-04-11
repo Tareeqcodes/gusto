@@ -88,7 +88,7 @@ const Menu = () => {
   
   {/* Scrollable category navigation */}
   <div className="mb-12 overflow-x-auto scrollbar-hide">
-    <div className="flex gap-2 md:gap-4 min-w-max py-1"> {/* Added py-1 for spacing */}
+    <div className="flex gap-2 md:gap-4 min-w-max py-1"> 
       {menuCategories.map((category) => (
         <motion.button
           key={category.id}
