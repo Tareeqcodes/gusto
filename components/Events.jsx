@@ -49,7 +49,7 @@ const events = [
 
 export default function Events() {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 bg-white" id='events'>
       <div className="container mx-auto px-4">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}

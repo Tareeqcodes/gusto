@@ -15,12 +15,12 @@ const navItems = [
         icon: <FaUtensils className="text-lg" />,
       },
       {
-        path: '/events',
+        path: '#events',
         name: 'Events',
         icon: <FaCalendarAlt className="text-lg" />,
       },
   {
-    path: '/MenuPage',
+    path: '/menu',
     name: 'MenuPDF',
     icon: <FaFilePdf className="text-lg" />,
   },

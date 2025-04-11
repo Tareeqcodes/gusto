@@ -116,7 +116,7 @@ export default function Hero() {
           {/* CTA Button */}
           <motion.div variants={textVariants} className="flex flex-col items-center gap-4">
             <motion.a
-              href="/menu"
+              href="#menu"
               variants={buttonVariants}
               whileHover="hover"
               whileTap="tap"

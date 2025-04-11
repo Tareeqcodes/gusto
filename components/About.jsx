@@ -18,6 +18,7 @@ export default function About() {
               <Image 
                 src="/images/atef.png" 
                 fill 
+                priority
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover" 
                 alt="Our Chief" 
@@ -33,9 +34,8 @@ export default function About() {
           >
             <h2 className="text-3xl font-bold text-amber-900 mb-4">Our Story</h2>
             <p className="text-gray-700 mb-4">
-              Founded in 2010, Savory Delights brings authentic flavors with a modern twist...
+              Founded in 2018, Gusto Restaurant brings authentic flavors with a modern twist...
             </p>
-            {/* More content */}
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

@@ -1,4 +1,4 @@
-// components/Footer.tsx
+
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 export default function Footer() {
@@ -25,15 +25,6 @@ export default function Footer() {
             </div>
           </div>
           
-          <div>
-            <h4 className="font-bold mb-4">Quick Links</h4>
-            <ul className="space-y-2">
-              <li><a href="#" className="hover:text-white">Home</a></li>
-              <li><a href="#" className="hover:text-white">Menu</a></li>
-              <li><a href="#" className="hover:text-white">About</a></li>
-              <li><a href="#" className="hover:text-white">Contact</a></li>
-            </ul>
-          </div>
           
           <div>
             <h4 className="font-bold mb-4">Contact</h4>
@@ -43,6 +34,14 @@ export default function Footer() {
               <p>admin@gusto-resto.com</p>
             </address>
           </div>
+          <div>
+            <h4 className="font-bold mb-4">HELP & LEGAL</h4>
+            <ul className="space-y-2">
+              <li><a href="#" className="hover:text-white">Help & Support</a></li>
+              <li><a href="#" className="hover:text-white">Terms & Conditions</a></li>
+              <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
+            </ul>
+          </div>
           
           <div>
             <h4 className="font-bold mb-4">Newsletter</h4>
@@ -51,7 +50,7 @@ export default function Footer() {
               <input 
                 type="email" 
                 placeholder="Your email" 
-                className="px-4 py-2 rounded-l text-gray-900 w-full" 
+                className="px-4 py-2 rounded-l text-gray-100 w-full" 
               />
               <button 
                 type="submit" 
