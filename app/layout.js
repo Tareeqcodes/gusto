@@ -70,11 +70,12 @@ export const metadata = {
     }
   },
   icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png", // 180×180px
+    icon: "icons/faviconB.ico",
+    shortcut: "icons/favicon.png", 
+    apple: "icons/apple-touch.png",
     other: {
-      rel: "apple-touch-icon-precomposed",
-      url: "/apple-touch-icon-precomposed.png",
+      rel: "apple-touch--precomposed",
+      url: "icons/apple-touch--precomposed.png",
     },
   },
   manifest: "/site.webmanifest", 

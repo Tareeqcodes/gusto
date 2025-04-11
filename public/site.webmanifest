@@ -9,22 +9,22 @@
   "icons": [
     {
       "src": "/icons/favicon.png",
-      "sizes": "192x192",
+      "sizes": "32x32",
       "type": "image/png"
     },
     {
       "src": "/icons/favicon.png",
-      "sizes": "256x256",
+      "sizes": "32x32",
       "type": "image/png"
     },
     {
       "src": "/icons/favicon.png",
-      "sizes": "384x384",
+      "sizes": "32x32",
       "type": "image/png"
     },
     {
       "src": "/icons/favicon.png",
-      "sizes": "512x512",
+      "sizes": "32x32",
       "type": "image/png"
     }
   ]

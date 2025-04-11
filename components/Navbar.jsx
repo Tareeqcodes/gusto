@@ -121,7 +121,11 @@ export default function Navbar() {
               className="flex flex-col space-y-2 py-2"
             >
               {navItems.map((item) => (
-                <motion.li key={item.path} variants={itemVariants}>
+                <motion.li 
+                key={item.path}
+                 variants={itemVariants}
+                 transition={{ duration: 0.3 }}
+                 >
                   <Link
                     href={item.path}
                     onClick={() => setIsOpen(false)}

@@ -12,9 +12,10 @@ export default function About() {
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="md:w-1/2"
+            className="w-full md:w-1/2"
           >
-            <div className="relative h-96 w-full rounded-lg overflow-hidden shadow-xl">
+            <div className="relative min-h-[384px] w-full rounded-lg overflow-hidden shadow-xl">
+               
               <Image 
                 src="/images/atef.png" 
                 fill 
@@ -30,7 +31,7 @@ export default function About() {
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="md:w-1/2"
+            className="md:w-1/2 text-center md:text-justify"
           >
             <h2 className="text-3xl font-bold text-amber-900 mb-4">Our Story</h2>
             <p className="text-gray-700 mb-4">
