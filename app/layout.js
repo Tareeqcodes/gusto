@@ -2,6 +2,8 @@ import "@/assets/styles/globals.css";
 import { Poppins } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { CartProvider } from "@/components/context/CartContext";
+import Cart from "@/components/Cart";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -94,9 +96,12 @@ export default function RootLayout({ children }) {
         className={poppins.className}
       >
         <Navbar />
+          <CartProvider>
         <main className="flex-grow">
-        {children}
+          {children}
+            <Cart />
         </main>
+          </CartProvider>
         <Footer />
       </body>
     </html>

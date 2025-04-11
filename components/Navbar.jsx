@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
-import { FaUtensils, FaCalendarAlt } from 'react-icons/fa';
+import { FaUtensils, FaCalendarAlt, FaFilePdf } from 'react-icons/fa';
 import { IoClose, IoMenu } from 'react-icons/io5';
 
 const navItems = [
@@ -19,16 +19,11 @@ const navItems = [
         name: 'Events',
         icon: <FaCalendarAlt className="text-lg" />,
       },
-  // {
-  //   path: '/about',
-  //   name: 'About Us',
-  //   icon: <GiChefToque className="text-lg" />,
-  // },
-  // {
-  //   path: '/contact',
-  //   name: 'Contact Us',
-  //   icon: <FaPhone className="text-lg" />,
-  // },
+  {
+    path: '/MenuPage',
+    name: 'MenuPDF',
+    icon: <FaFilePdf className="text-lg" />,
+  },
 ];
 
 export default function Navbar() {

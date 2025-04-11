@@ -1,11 +1,12 @@
 'use client';
-
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaUtensils, FaWineGlassAlt, FaIceCream, FaFire, FaLeaf } from 'react-icons/fa';
 import { GiSushis, GiNoodles, GiPizzaCutter, GiMeat, GiCoffeeCup } from 'react-icons/gi';
+import { useCart } from './context/CartContext';
 
 const Menu = () => {
+  const { addToCart } = useCart();
   const [activeCategory, setActiveCategory] = useState('soup');
   const [dietaryFilter, setDietaryFilter] = useState(null);
 

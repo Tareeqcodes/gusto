@@ -129,8 +129,13 @@ export default function Hero() {
               variants={textVariants}
               className="text-amber-100 text-sm mt-4"
             >
-              <p>Follow us on <span className="font-bold">@gusto.nigeria</span></p>
-              <p className="text-xs mt-1">For all updates & content</p>
+              <p>Follow us on <span className="font-bold">
+                <a href="https://www.instagram.com/gusto.nigeria?igsh=NGhlNmpzY2N2NW41"
+                target='_blank'
+                rel='noopener noreferrer'
+                >@gusto.nigeria</a>
+                </span>
+                </p>
             </motion.div>
           </motion.div>
 

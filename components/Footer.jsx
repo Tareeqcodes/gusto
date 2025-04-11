@@ -10,9 +10,18 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Gusto Restaurant</h3>
             <p className="mb-4">Bringing exceptional dining experiences since 2018</p>
             <div className="flex gap-4">
-              <a href="#" className="hover:text-white"><FaInstagram size={20} /></a>
-              <a href="#" className="hover:text-white"><FaFacebook size={20} /></a>
-              <a href="#" className="hover:text-white"><FaTwitter size={20} /></a>
+              <a href="https://www.instagram.com/gusto.nigeria?igsh=NGhlNmpzY2N2NW41" className="hover:text-white"
+               target='_blank'
+                rel='noopener noreferrer'
+              ><FaInstagram size={20} /></a>
+              <a href="https://web.facebook.com/gustonigeria" className="hover:text-white"
+               target='_blank'
+                rel='noopener noreferrer'
+              ><FaFacebook size={20} /></a>
+              <a href="https://x.com/GustoResto"
+               target='_blank'
+                rel='noopener noreferrer'
+               className="hover:text-white"><FaTwitter size={20} /></a>
             </div>
           </div>
           
@@ -29,10 +38,9 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4">Contact</h4>
             <address className="not-italic">
-              <p>123 Culinary Street</p>
-              <p>Foodville, FC 12345</p>
-              <p className="mt-2">(123) 456-7890</p>
-              <p>gusto@gmail.com</p>
+              <p>17 Lodge Road</p>
+              <p className="mt-2">(+234) 906 366 5554 </p>
+              <p>admin@gusto-resto.com</p>
             </address>
           </div>
           

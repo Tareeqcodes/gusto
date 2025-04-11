@@ -6,18 +6,18 @@ import { FaQuoteLeft } from 'react-icons/fa';
 const testimonials = [
   {
     quote: "The best dining experience I've had this year!",
-    author: "Sarah Johnson",
-    role: "Food Critic"
+    author: "Tareeq",
+    role: "Fullstack Developer"
   },
   {
     quote: "The best dining experience I've had this year!",
-    author: "Sarah Johnson",
-    role: "Food Critic"
+    author: "Tareeq",
+    role: "Fullstack Developer"
   },
   {
     quote: "The best dining experience I've had this year!",
-    author: "Sarah Johnson",
-    role: "Food Critic"
+    author: "Tareeq",
+    role: "Fullstack Developer"
   },
 ];
 
