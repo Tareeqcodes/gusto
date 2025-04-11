@@ -15,10 +15,10 @@ export default function MenuPage() {
           <div className="bg-red-100 border-l-4 border-red-500 text-red-700 p-4 mb-8">
             <div className="flex items-center gap-2">
               <FaExclamationTriangle />
-              <p>Menu failed to load. Please download instead.</p>
+              <p>Menu failed to load. Pls download instead.</p>
             </div>
-          </div>
-        ) : (
+          </div> 
+        ) : (    
           <div className="bg-white p-4 rounded-lg shadow-lg mb-8">
             <iframe 
               src="/menu.pdf" 
