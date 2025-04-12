@@ -94,8 +94,8 @@ export default function LocationFeeds() {
                 <Image
                   src={location.image}
                   fill
-                  sizes='100vw'
-                  priority={index === 0}
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  priority={false}
                   className="object-cover"
                   alt={`Gusto ${location.city}`}
                 />
