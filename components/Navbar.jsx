@@ -5,14 +5,14 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
-import { FaUtensils, FaCalendarAlt, FaFilePdf, FaHooli } from 'react-icons/fa';
+import { FaUtensils, FaCalendarAlt, FaHome, FaFilePdf } from 'react-icons/fa';
 import { IoClose, IoMenu } from 'react-icons/io5';
 
 const navItems = [
   {
     path: '/',
     name: 'Home',
-    icon: <FaHooli className="text-lg" />,
+    icon: <FaHome className="text-lg" />,
   },
     {
         path: '/reservation',
