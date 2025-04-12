@@ -65,7 +65,8 @@ export default function Hero() {
         <Image
           src="/images/hero.png"
           fill
-          priority
+          sizes="100vw"
+          priority={false}
           className="object-cover"
           alt="Gusto Restaurant Interior"
           quality={100}
@@ -120,7 +121,7 @@ export default function Hero() {
               variants={buttonVariants}
               whileHover="hover"
               whileTap="tap"
-              className="inline-flex items-center justify-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-medium text-lg px-8 py-4 rounded-full shadow-lg transition-colors duration-300"
+              className="inline-flex items-center justify-center gap-2 bg-amber-700 hover:bg-amber-800 text-white font-medium text-lg px-8 py-4 rounded-full shadow-lg transition-colors duration-300"
             >
               <FaUtensils className="text-xl" />
               <span>View Our Menu</span>

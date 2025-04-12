@@ -19,7 +19,7 @@ export default function About() {
               <Image 
                 src="/images/atef.png" 
                 fill 
-                priority
+                priority={false}
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover" 
                 alt="Our Chief" 

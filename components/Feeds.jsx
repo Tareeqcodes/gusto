@@ -79,7 +79,6 @@ export default function LocationFeeds() {
           </div>
         </motion.div>
 
-        {/* Location Cards */}
         <div className="grid md:grid-cols-3 gap-8">
           {locations.map((location, index) => (
             <motion.div
@@ -91,14 +90,14 @@ export default function LocationFeeds() {
               whileHover={{ y: -10 }}
               className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all"
             >
-              {/* Image with overlay */}
               <div className="relative h-48">
                 <Image
                   src={location.image}
                   fill
+                  sizes='100vw'
+                  priority={index === 0}
                   className="object-cover"
                   alt={`Gusto ${location.city}`}
-                  priority={index === 0}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 <div className="absolute bottom-4 left-4 flex items-center gap-2">

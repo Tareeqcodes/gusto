@@ -64,7 +64,7 @@ const Menu = () => {
         <div className="flex justify-center gap-4 mb-8">
           <button
             onClick={() => setDietaryFilter(null)}
-            className={`px-4 py-2 rounded-full ${!dietaryFilter ? 'bg-amber-600 text-white' : 'bg-amber-100 text-amber-800'}`}
+            className={`px-4 py-2 rounded-full ${!dietaryFilter ? 'bg-amber-700 text-white' : 'bg-amber-100 text-amber-800'}`}
           >
             All Items
           </button>
@@ -127,7 +127,7 @@ const Menu = () => {
               className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all border-l-4 border-amber-600"
             >
               <div className="flex justify-between items-start">
-                <h3 className="text-xl font-bold text-amber-900">{item.name}</h3>
+                <div className="text-xl font-bold text-amber-900">{item.name}</div>
                 <span className="font-bold text-amber-700">{item.price}</span>
               </div>
               <p className="text-gray-600 my-3">{item.description}</p>
