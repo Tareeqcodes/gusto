@@ -63,7 +63,7 @@ export default function Hero() {
         className="absolute inset-0"
       >
         <Image
-          src="/images/hero.png"
+          src="/images/hero.webp"
           fill
           sizes="100vw"
           loading='lazy'
@@ -74,7 +74,6 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black/30" />
       </motion.div>
 
-      {/* Content Container */}
       <div className="relative z-10 h-full flex items-center justify-center">
         <motion.div
           variants={containerVariants}
@@ -82,7 +81,6 @@ export default function Hero() {
           animate="visible"
           className="text-center px-4 max-w-4xl mx-auto"
         >
-          {/* Restaurant Name with Branches */}
           <div className="mb-2">
             <motion.h1
               variants={textVariants}

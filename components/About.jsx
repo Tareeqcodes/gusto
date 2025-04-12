@@ -17,7 +17,7 @@ export default function About() {
             <div className="relative min-h-[384px] w-full rounded-lg overflow-hidden shadow-xl">
                
               <Image 
-                src="/images/atef.png" 
+                src="/images/atef.webp" 
                 fill 
                 priority={false}
                 sizes="(max-width: 768px) 100vw, 50vw"

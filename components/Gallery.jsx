@@ -1,4 +1,4 @@
-// components/Gallery.tsx
+
 'use client';
 import { useState } from 'react';
 import Image from 'next/image';
@@ -6,15 +6,14 @@ import { motion } from 'framer-motion';
 import { FiZoomIn } from 'react-icons/fi';
 
 const galleryImages = [
-  { src: "/images/1.png", category: "main-course" },
-  { src: "/images/2.png", category: "desserts" },
-  { src: "/images/3.png", category: "desserts" },
-  { src: "/images/4.png", category: "desserts" },
-  { src: "/images/5.png", category: "desserts" },
-  { src: "/images/6.png", category: "desserts" },
-  { src: "/images/8.png", category: "desserts" },
-  { src: "/images/9.png", category: "desserts" },
-  // 6-8 images
+  { src: "/images/1.webp", category: "main-course" },
+  { src: "/images/2.webp", category: "desserts" },
+  { src: "/images/3.webp", category: "desserts" },
+  { src: "/images/4.webp", category: "desserts" },
+  { src: "/images/5.webp", category: "desserts" },
+  { src: "/images/6.webp", category: "desserts" },
+  { src: "/images/8.webp", category: "desserts" },  
+  { src: "/images/9.webp", category: "desserts" },
 ];
 
 export default function Gallery() {
@@ -25,7 +24,6 @@ export default function Gallery() {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-amber-900 mb-12">Our Gallery</h2>
         
-        {/* Interactive Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {galleryImages.map((img, index) => (
             <motion.div

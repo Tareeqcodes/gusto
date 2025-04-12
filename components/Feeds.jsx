@@ -13,7 +13,7 @@ export default function LocationFeeds() {
   const locations = [
     {
       city: 'Kano',
-      image: '/images/3.png',
+      image: '/images/3.webp',
       dailyPrice: '₦25,000',
       monthlyPrice: '₦600,000',
       special: 'Northern Cuisine Special',
@@ -24,7 +24,7 @@ export default function LocationFeeds() {
     },
     {
       city: 'Abuja',
-      image: '/images/3.png',
+      image: '/images/3.webp',
       dailyPrice: '₦30,000',
       monthlyPrice: '₦720,000',
       special: 'Executive Lunch Menu',
@@ -35,7 +35,7 @@ export default function LocationFeeds() {
     },
     {
       city: 'Lagos',
-      image: '/images/3.png',
+      image: '/images/3.webp',
       dailyPrice: '₦35,000',
       monthlyPrice: '₦840,000',
       special: 'Coastal Fusion Experience',
@@ -49,7 +49,7 @@ export default function LocationFeeds() {
   return (
     <section className="py-16 bg-amber-50">
       <div className="container mx-auto px-4">
-        {/* Header */}
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
