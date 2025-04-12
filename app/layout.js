@@ -1,3 +1,4 @@
+
 import "@/assets/styles/globals.css";
 import { Poppins } from "next/font/google";
 import Navbar from "@/components/Navbar";
@@ -19,7 +20,7 @@ export const viewport = {
 }
 
 export const metadata = {
-  metadataBase: new URL('http://localhost:3000'),
+  metadataBase: new URL('https://gusto-resto.vercel.app/'),
   title: {
     default: "Gusto | Authentic African Dining Experience",
     template: "%s | Gusto Restaurant", // Dynamic title for other pages
@@ -40,24 +41,24 @@ export const metadata = {
   openGraph: {
     title: "Gusto - A masterpiece you can taste",
     description: "Where authentic African flavors meet modern culinary artistry",
-    url: "localhost:3000",
+    url: "https://gusto-resto.vercel.app/",
     siteName: "Gusto Restaurant",
     images: [
       {
-        url: "/images/1.png",
+        url: "/images/10.png",
         width: 1200,
         height: 630,
         alt: "Gusto's signature dish plated elegantly",
       },
     ],
-    locale: "en_NG", // Nigeria locale
+    locale: "en_NG", 
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Gusto Restaurant",
     description: "Follow us for daily specials and events",
-    images: ["/images/1.png"],
+    images: ["/images/10.png"],
   },
   robots: {
     index: true,
@@ -80,13 +81,14 @@ export const metadata = {
   },
   manifest: "/site.webmanifest", 
   alternates: {
-    canonical: "https://gusto-resto.com",
+    canonical: "https://gusto-resto.vercel.app/",
     languages: {
-      en: "https://gusto-resto.com/en",
+      en: "https://gusto-resto.vercel.app/en",
     },
   },
   verification: {
-    google: "your-google-verification-code", // For Google Search Console
+    google: "6GPrJZ7YUXkR3Qt38gEbtqi7dBrrv_bNVv9DUbArgGA",
+     // For Google Search Console
   },
 };
 
