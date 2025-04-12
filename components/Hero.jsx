@@ -66,7 +66,7 @@ export default function Hero() {
           src="/images/hero.png"
           fill
           sizes="100vw"
-          priority={false}
+          loading='lazy'
           className="object-cover"
           alt="Gusto Restaurant Interior"
           quality={100}
