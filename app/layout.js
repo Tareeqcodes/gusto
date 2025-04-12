@@ -1,4 +1,3 @@
-
 import "@/assets/styles/globals.css";
 import { Poppins } from "next/font/google";
 import Navbar from "@/components/Navbar";
@@ -88,7 +87,6 @@ export const metadata = {
   },
   verification: {
     google: "6GPrJZ7YUXkR3Qt38gEbtqi7dBrrv_bNVv9DUbArgGA",
-     // For Google Search Console
   },
 };
 
