@@ -1,9 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    experimental: {
-        optimizeCss: true, 
-        optimizeServerReact: true, // Server component optimization
-      },
-};
+const nextConfig = {};
 
 export default nextConfig;
